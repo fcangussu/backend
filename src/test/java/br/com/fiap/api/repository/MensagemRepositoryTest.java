@@ -23,7 +23,6 @@ class MensagemRepositoryTest {
     void setup() {
         openMock = MockitoAnnotations.openMocks(this); //vai INICIAR todos mocks desta classe - quem possui a anotacao @Mock.
     }
-
     @AfterEach
     void tearDown() throws Exception {
         openMock.close();
