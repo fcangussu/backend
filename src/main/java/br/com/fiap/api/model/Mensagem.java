@@ -21,6 +21,7 @@ public class Mensagem {
     @Id
     private UUID id;
 
+    private String teste;
     @Column(nullable = false)
     @NotEmpty(message = "Usuário é obrigatório")
     private String usuario;
