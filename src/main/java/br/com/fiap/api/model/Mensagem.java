@@ -34,5 +34,5 @@ public class Mensagem {
     private LocalDateTime dataCriacaoMensagem = LocalDateTime.now();
 
     @Builder.Default
-    private  int gostei=0;
+    private  int gostei=0;   //atributo like!
 }
